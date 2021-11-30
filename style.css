@@ -196,8 +196,8 @@ section > h1 { /* O sinal de > indica que serão atingidos apenas
   os h1 FILHOS DIRETOS de section */
   text-align: left;
   width: 100%;
-  color: var(--cor-fundo);
-  font-family: var(--fonte-titulo);
+  color: darkred;
+  font-family: 'Fredoka', sans-serif;
   font-style: italic;
   font-size: 2rem;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4);
@@ -340,7 +340,7 @@ aside article img {
 }
 
 .pagina-interna figure figcaption {
-  font-family: var(--fonte-titulo);
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
   text-align: center;
   color: var(--cor-texto);
@@ -354,22 +354,23 @@ aside article img {
   line-height: 1.2;
   width: 100%;
   font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pagina-interna section h2 {
   text-align: left;
   width: 100%;
-  color: var(--cor-fundo);
-  font-family: var(--fonte-titulo);
+  color: darkred;
+  font-family: 'Fredoka', sans-serif;
   font-style: italic;
   font-size: 1.5rem;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4);
 }
 
 .pagina-interna section h1 {
-  font-family: var(--fonte-titulo);
+  font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
-  color: var(--cor-secun-clara);
+  color: white;
   font-weight: bold;
   text-align: left;  
 }
