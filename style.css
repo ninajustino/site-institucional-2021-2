@@ -9,13 +9,13 @@
   --cor-fundo: #333333;
   --cor-fundo-clara: #555555;
   --cor-texto: #EEEEEE;
-  --fonte-texto: 'IBM Plex Sans', sans-serif;
-  --fonte-titulo: 'Playfair Display', serif;
+  --fonte-texto: 'Fredoka', sans-serif;
+  --fonte-titulo: 'Montserrat', serif;
 }
 
 /************* CSS reset **************************/
 * { /* Todos os elementos */
-  font-family: var(--fonte-texto);
+  font-family: Fredoka;
   padding: 0;
   margin: 0;
   box-sizing: border-box; /* a borda faz parte das dimensões do elemento */
@@ -56,11 +56,11 @@ header {
   margin-left: 20px;
   color: white;
   text-decoration: none;
+  font-family: Fredoka;
 }
 
 #social ul li a img {
   width: 40px;
-  filter: brightness(0.225);
 }
 
 #social ul li a span {
@@ -71,7 +71,7 @@ header {
   display: flex;
   justify-content: center;  /* centralização horizontal */
   align-items: center;  /* centralização vertical */
-  background-color: var(--cor-secun);
+  background-color: darkred;
   min-height: 25px; /* altura mínima */
   width: 100%;
 }
@@ -85,14 +85,14 @@ header {
   display: flex;
 }
 #menu-principal ul li a {
-  font-family: var(--fonte-titulo);
+  font-family: 'Fredoka', sans-serif;
   height: 36px;
   align-items: center;
   display: flex;
   padding: 0 10px;
   color: var(--cor-texto);
   text-decoration: none; /* Sem sublinhado */
-  background-color: var(--cor-secun);
+  background-color: darkred;
   transition: 300ms; /* Afeta a velocidade dos efeitos do hover */
 }
 /* Quando o mouse passa sobre o link do menu */
@@ -252,9 +252,9 @@ section > article > h1 {
 
 .cartao-banda h1 {
   margin: 8px;
-  font-family: var(--fonte-titulo);
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.75rem;
-  color: var(--cor-secun);
+  color: white;
   text-align: center;
   padding: 0px;
 }
@@ -271,17 +271,18 @@ aside {
   background-color: var(--cor-fundo);
   margin: 20px;
   border-radius: 16px;
-  width: 25%;
-  padding: 16px;
+  width: 20%;
+  padding: 8px;
   color: var(--cor-texto);
   font-size: 1.2rem;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
-
 /* Links que estão dentro do aside */
 aside a {
   color: var(--cor-prim-clara);
-  text-decoration: none;  /* Tira o sublinhado */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;  /* Tira o sublinhado */
 }
 
 aside a:hover {
@@ -296,6 +297,7 @@ aside article {
   padding: 30px 20px;
   border: 3px groove var(--cor-texto);
   border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 article {
@@ -305,13 +307,23 @@ article {
   align-items: center;  /* centralização vertical */
   background-color: transparent;
   margin: 5px;
-  min-height: 100px;
-  width: 100%;
+  min-height: 80px;
+  font-family: 'Montserrat', sans-serif;
 }
+
+aside article img {
+  text-align: center;
+  margin: 50px 0;
+  padding: 30px;
+  border: 3px groove var(--cor-texto);
+  border-radius: 8px;
+  width: 300px;
+}
+
 
 .pagina-interna {
   color: var(--cor-texto);
-  font-family: var(--fonte-texto);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pagina-interna figure {
